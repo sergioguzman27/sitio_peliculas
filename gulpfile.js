@@ -27,8 +27,8 @@ gulp.task('serve', ['php-serve'], function() {
 
 gulp.watch(['sections/*.php']), ['php'];
 gulp.watch(['index.php']), ['php'];
-gulp.watch('sections/*.php').on('change', browserSync.reload);
-gulp.watch('index.php').on('change', browserSync.reload);
+gulp.watch('./src/pages/*.php').on('change', browserSync.reload);
+gulp.watch('./src/index.php').on('change', browserSync.reload);
 
 // Start server on default task
 

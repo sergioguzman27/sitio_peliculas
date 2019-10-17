@@ -4,10 +4,12 @@
   $descripcion = "";
   $critica = array(5, 5, 5, 5);
   $imagen = "";
+  $video = "";
   if ($parametro == 1) {
     $titulo = "Bastardos sin gloria";
     $imagen = "../images/peliculas/bastardos2.jpg";
     $critica = array(5, 4.8, 4.2, 4.9);
+    $video = '<iframe width="560" height="315" src="https://www.youtube.com/embed/KnrRy6kSFF0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
     $descripcion = "Inglourious Basterds es una película de 2009 escrita y dirigida por Quentin Tarantino y protagonizada por Brad Pitt, Christoph Waltz y Mélanie Laurent. Titulada Malditos bastardos​ en España y Bastardos sin gloria​ en Hispanoamérica, la película es una ficción ucrónica sobre la Alemania nazi.
     El estilo recuerda al spaghetti western y al cine bélico italiano de los años 1960. Christoph Waltz, que interpretó al Standartenführer Hans Landa, recibió el premio al mejor actor en el Festival de Cannes, el premio al mejor actor de reparto del Sindicato de Actores, el Globo de Oro y Óscar en la misma categoría.
     Dos historias convergen. Una sigue a un grupo de soldados, cuya misión es matar nazis con la participación de una miembro de la resistencia alemana. La otra historia sigue a una joven judía que busca venganza por la muerte de su familia en manos de los nazis, y en cuyo cine va a reunirse la cúpula nazi en el estreno de una película.";
@@ -15,6 +17,7 @@
     $titulo = "John Wick";
     $imagen = "../images/peliculas/john-wick2.png";
     $critica = array(4.5, 4.5, 4.1, 3.9);
+    $video = '<iframe width="560" height="315" src="https://www.youtube.com/embed/C0BMx-qxsP4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
     $descripcion = "John Wick es una película de acción estadounidense de 2014, dirigida por David Leitch y Chad Stahelski, escrita por Derek Kolstad y protagonizada por Keanu Reeves. Fue estrenada el 24 de octubre de 2014. John Wick es un exasesino a sueldo de la mafia rusa, más conocido como Baba Yagá (el hombre del saco). Viggo Tarazov, su antiguo socio, se refiere a él como un hombre enfocado, centrado, de voluntad pura y total compromiso, que trabaja como mercenario para cualquiera que pueda pagar por sus servicios para matar a otra persona.
 
     Días después de la muerte de su esposa, John recibe un perro que ella le había dejado. Relaciona al perro con esperanza en la vida, y lo cuida para hacer más llevadero su duelo. Pero el destino le da un vuelco: En una gasolinera, John tropieza con un pequeño grupo de mafiosos yonquis que insiste en comprarle su coche, pero les responde que no está en venta.
@@ -23,14 +26,16 @@
   } else if ($parametro == 3) {
     $titulo = "Interestelar";
     $imagen = "../images/peliculas/interestelar2.jpg";
+    $critica = array(4.9, 4.3, 5, 5);
+    $video = '<iframe width="560" height="315" src="https://www.youtube.com/embed/UoSSbmD9vqc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
     $descripcion = "Interstellar (Interestelar en Hispanoamérica) es una película épica de ciencia ficción estadounidense de 2014, dirigida por Christopher Nolan y protagonizada por Matthew McConaughey, Anne Hathaway, Jessica Chastain, Michael Caine y Matt Damon. La película presenta a un equipo de astronautas que viaja a través de un agujero de gusano en busca de un nuevo hogar para la humanidad.
     A mediados del siglo XXI, la destrucción de las cosechas en la Tierra ha hecho que la agricultura sea cada vez más difícil y se vea amenazada la supervivencia de la humanidad. Joseph Cooper, un viudo exingeniero y piloto de la NASA, dirige una granja con su suegro Donald, su hijo Tom, y su hija Murph, quien cree que su habitación está embrujada por un poltergeist.
     Cuando aparecen inexplicablemente extraños patrones de polvo en el suelo de la habitación de Murphy, Cooper se da cuenta de que la gravedad está detrás de su formación, no un fantasma. Interpreta el patrón como un conjunto de coordenadas geográficas formadas en código binario. Cooper y Murph siguen las coordenadas a una instalación secreta de la NASA, donde se encuentran con el exprofesor de Cooper, el Dr. Brand.";
-    $critica = array(4.9, 4.3, 5, 5);
   } else if ($parametro == 4) {
     $titulo = "Animales Nocturnos";
     $imagen = "../images/peliculas/animales2.jpg";
     $critica = array(4, 4, 4.7, 3);
+    $video = '<iframe width="560" height="315" src="https://www.youtube.com/embed/-H1Ii1LjyFU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
     $descripcion = "Nocturnal Animals es una película dirigida, escrita y coproducida por Tom Ford, y protagonizada por Amy Adams, Jake Gyllenhaal, Aaron Taylor-Johnson, Michael Shannon, Isla Fisher y Armie Hammer. Es la adaptación cinematográfica de la novela de suspense psicológico Tony and Susan (1993), escrita por Austin Wright.
     Animales nocturnos nos cuenta la historia de Susan, interpretada por la deliciosa Amy Adams. Susan vive en una especie de gran mentira de alta sociedad.
     A pesar de que intenta por todos los medios permanecer aferrada al autoengaño, su universo se descompone cuando llega a sus manos la primera novela, aún inédita, de su primer marido. Un relato duro, áspero y polvoriento, que remueve recuerdos en la conciencia de la mujer. Y es que Susan guarda secretos, pecados que todavía no ha expiado, y se clavan como agujas ardiendo en su alma. Las páginas de Animales nocturnos, la novela, reabren las heridas y, al mismo tiempo, fascinan a la protagonista, que descubre una imagen desconocida del hombre con el que compartió aquellos años de juventud.";
@@ -38,6 +43,7 @@
     $titulo = "Ratatouille";
     $imagen = "../images/peliculas/ratatouille2.jpg";
     $critica = array(5, 5, 4.8, 4.9);
+    $video = '<iframe width="560" height="315" src="https://www.youtube.com/embed/NgsQ8mVkN8w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
     $descripcion = "Ratatouille es una película estadounidense de animación por computadora producida por Pixar Animation Studios y estrenada el 16 de marzo de 2007.
     La película narra la historia de una rata que sueña con convertirse en chef y para realizar su objetivo, decide hacer una alianza con el hijo de uno de los cocineros más prestigiosos de Francia. Fue un éxito de taquilla y recibió críticas positivas, además de ganar el Premio Óscar a la mejor película de animación, entre otros premios.
     Remy es una rata que vive en el ático de una casa francesa con su hermano Emile y una colonia liderada por su padre Django. Dotado con un agudo sentido del olfato y gusto, Remy aspira a convertirse en un chef gourmet, inspirado por el reconocido y recientemente fallecido chef Auguste Gusteau (el cual veía en la televisión de la casa de la señora en la cual estaba instalada la colonia), pero en lugar de eso, su habilidad es utilizada para detectar el veneno en la comida, lo cual no lo hace nada feliz.
@@ -46,6 +52,7 @@
     $titulo = "Star Wars Episodio 3";
     $imagen = "../images/peliculas/starwar3-2.jpg";
     $critica = array(4.7, 4.3, 4.8, 4.5);
+    $video = '<iframe width="560" height="315" src="https://www.youtube.com/embed/5UnjrG_N8hU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
     $descripcion = "Star Wars: Episodio III - La venganza de los Sith (título original en inglés: Star Wars: Episode III - Revenge of the Sith) es una película de space operan estadounidense, escrita y dirigida por George Lucas. Fue la sexta película estrenada de la saga de Star Wars, siendo la tercera en la trilogía de precuelas.
     La trama describe una época en la que los Caballeros Jedi se han esparcido por toda la galaxia, dirigiendo un ejército clon masivo para enfrentar a los Separatistas Galácticos, tres años después del inicio de las Guerras Clon. El Canciller Palpatine fue secuestrado y el Maestro Jedi Obi-Wan Kenobi, acompañado de su aprendiz Anakin Skywalker, es enviado a rescatarlo en una misión, donde también debe eliminar a los Líderes Separatistas, el Conde Dooku y el General Grievous, para concluir el conflicto galáctico. Después de ser rescatado, el Canciller fortalece su amistad con Anakin, para poder convencerlo de que existen mayores beneficios en el Lado Oscuro de la Fuerza, que del Lado Luminoso.
     La Orden Jedi empieza a sospechar de la amistad entre el Canciller y Anakin, por lo que intenta averiguar los verdaderos objetivos de Palpatine. Cuando el Canciller se descubre, repentinamente, como el siniestro Lord Sith Darth Sidious, los destinos de la Orden Jedi y de la República Galáctica se encuentran expuestos ante un inminente peligro.";
@@ -53,12 +60,14 @@
     $titulo = "Star Wars Episodio 5";
     $imagen = "../images/peliculas/starwar5-2.jpg";
     $critica = array(4.8, 4.5, 5, 4.6);
+    $video = '<iframe width="560" height="315" src="https://www.youtube.com/embed/JNwNXF9Y6kY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
     $descripcion = "Star Wars: Episodio V - El Imperio contraataca (título original en inglés: Star Wars: Episode V - The Empire Strikes Back) es una película del género space opera dirigida por Irvin Kershner y estrenada por primera vez en Estados Unidos el 21 de mayo de 1980.
     La ficción de la película se sitúa tres años después de la destrucción de la estación espacial de combate conocida como la Estrella de la muerte, destrucción acaecida al final del episodio anterior, Una Nueva Esperanza, estrenada en el año 1977. En El Imperio contraataca Luke Skywalker, Han Solo, Leia Organa y el resto de la Alianza Rebelde son perseguidos por Darth Vader y las fuerzas de élite del Imperio Galáctico. En este episodio se desarrolla la historia de amor entre Han y Leia, mientras que Luke aprende más sobre los caminos de la Fuerza de la mano del maestro Yoda. Con Han y Leia capturados por el Imperio, Luke luchará contra Darth Vader en una confrontación sin igual, pero Vader esconde una terrible revelación.";
   } else if ($parametro == 8) {
     $titulo = "Star Wars Episodio 7";
     $imagen = "../images/peliculas/starwar7-2.jpg";
     $critica = array(4.6, 4.5, 4, 4);
+    $video = '<iframe width="560" height="315" src="https://www.youtube.com/embed/sGbxmsDFVnE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
     $descripcion = "Star Wars: Episodio VII - El despertar de la Fuerza (título original: Star Wars: Episode VII - The Force Awakens)4​ es una película estadounidense del género space opera, dirigida por J. J. Abrams, es la séptima entrega de la saga Star Wars, atendiendo tanto a la fecha de estreno​ como a la cronología interna de la serie, pues transcurre unos 30 años después del sexto episodio, Return of the Jedi (1983).
     Treinta años después de la Batalla de Endor, la Galaxia no ha podido acabar con la tiranía y la opresión. La Alianza Rebelde se ha transformado en la Resistencia, brazo militar de la Nueva República que combate a la Primera Orden, una agrupación marcial nacida e influenciada por los restos del Imperio Galáctico.
     Poe Dameron (Oscar Isaac) es el mejor piloto de la Galaxia y de la Resistencia, por lo que la ahora General Leia Organa (Carrie Fisher) le encomienda la misión de encontrar a su hermano Luke Skywalker (Mark Hamill), quien ha desaparecido desde hace algunos años. En el planeta Jakku, Poe obtiene de manos de Lor San Tekka (Max von Sydow) un fragmento de mapa estelar donde se traza una ruta hasta la ubicación de Luke. Sin embargo son atacados por fuerzas de asalto enemigas comandadas por Kylo Ren (Adam Driver), un alto mando de la Primera Orden que admira al difunto Lord Sith Darth Vader.";
@@ -66,6 +75,7 @@
     $titulo = "The Help";
     $imagen = "../images/peliculas/thehelp2.jpg";
     $critica = array(4, 3.8, 3.4, 4);
+    $video = '<iframe width="560" height="315" src="https://www.youtube.com/embed/XOTkNsxhECY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
     $descripcion = "The Help (Criadas y señoras en España, Historias cruzadas en Latinoamérica) es una película dramática estadounidense estrenada el 10 de agosto de 2011. Dirigida por Tate Taylor y protagonizada por Emma Stone, Viola Davis y Bryce Dallas Howard, está basada en la novela Criadas y señoras, de Kathryn Stockett.
     Eugenia -Skeeter- Phelan (Emma Stone) es una joven de 23 años que ha regresado a su casa en Jackson, Misisipi, al sur de Estados Unidos, tras terminar sus estudios en la universidad estatal. Con la idea de ser escritora, en plena década de los 60 comienza a ver a su entorno social con otros ojos, mientras su madre (Allison Janney) solo piensa en casarla.
     Aibileen Clark (Viola Davis) es una sirvienta negra que ha criado a diecisiete niños blancos. Tras perder a su hijo mientras sus jefes blancos miraban para otro lado, Aibileen siente que algo ha cambiado en su vida y se compromete con la educación de la niña que tiene a su cargo, aunque sabe que el paso del tiempo hará que se separen.
@@ -127,6 +137,11 @@
                 </li>
               </ul> <!-- .movie-schedule -->
             </div>
+          </div>
+
+          <h2 class="section-title">Trailer</h2>
+          <div class="row div-video">
+          <?php echo $video;?>
           </div>
         </div>
       </div> <!-- .container -->
