@@ -1,0 +1,26 @@
+{
+  "name": "sitio_peliculas",
+  "version": "1.0.0",
+  "description": "Sitio de peliculas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergioguzman27/sitio_peliculas.git"
+  },
+  "author": "Sergio Guzman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergioguzman27/sitio_peliculas/issues"
+  },
+  "homepage": "https://github.com/sergioguzman27/sitio_peliculas#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "gulp-connect-php": "^1.0.3"
+  }
+}
